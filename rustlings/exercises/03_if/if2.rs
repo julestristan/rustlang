@@ -7,7 +7,7 @@ fn picky_eater(food: &str) -> &str {
         return "I guess I can eat that.";
     }
     if food == "broccoli" || food == "literally anything" || food == "gummy bears"{
-        return "No thanks!"
+        return "No thanks!";
     }
     else {
         return "1";
